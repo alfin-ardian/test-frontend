@@ -5,7 +5,7 @@ import RightCard from "./RightCard";
 
 function App() {
   return (
-    <div className="bg-gray-800 text-white h-screen min-w-screen overflow-auto flex items-center justify-center">
+    <div className="bg-gray-800 text-white h-screen min-w-screen overflow-auto flex items-center justify-center ">
       <div className="container p-4 absolute top-0 left-1/2 transform -translate-x-1/2">
         <ArrowLeftOutlined />
         <h1 className="text-3xl font-bold mb-4">City News</h1>
@@ -16,6 +16,7 @@ function App() {
 
         <LeftCard />
         <RightCard />
+        <LeftCard />
       </div>
     </div>
   );
