@@ -7,8 +7,8 @@ function App() {
       style={{ marginLeft: "30px" }}
     >
       <div className="mr-10 right-0">
-        <div className="px-6 ml-20  p-2 flex justify-between">
-          <div className="text-left">
+        <div className="px-6 ml-40  p-2 flex justify-around">
+          <div className="text-left -ml-8 px-14">
             <p className="text-sm" style={{ color: "#454F63" }}>
               16 Nov
             </p>
@@ -17,7 +17,7 @@ function App() {
             </div>
           </div>
           <img
-            className="w-16 h-16 rounded-2xl ml-4"
+            className="w-16 h-16 rounded-2xl mr-16"
             src={Image}
             alt="Profile"
           />
